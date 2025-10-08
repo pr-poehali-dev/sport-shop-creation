@@ -29,7 +29,7 @@ export const Header = ({
           <div className="flex items-center gap-3">
             <img 
               src="https://cdn.poehali.dev/files/1b991944-6e39-49ee-83ad-608df27a198d.jpg" 
-              alt="Смарт Фикт" 
+              alt="СмартФит" 
               className="h-12 w-auto"
             />
           </div>

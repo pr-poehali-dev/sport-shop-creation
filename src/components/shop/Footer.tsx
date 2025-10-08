@@ -9,11 +9,11 @@ export const Footer = () => {
           <div className="flex items-center gap-3">
             <img 
               src="https://cdn.poehali.dev/files/1b991944-6e39-49ee-83ad-608df27a198d.jpg" 
-              alt="Смарт Фикт" 
+              alt="СмартФит" 
               className="h-10 w-auto"
             />
           </div>
-          <p className="text-muted-foreground text-sm">© 2024 СВАРТИ КАВАРЫ. Все права защищены.</p>
+          <p className="text-muted-foreground text-sm">© 2024 СМАРТФИТ. Все права защищены.</p>
           <div className="flex gap-4">
             <Button variant="ghost" size="icon">
               <Icon name="Instagram" size={20} />
