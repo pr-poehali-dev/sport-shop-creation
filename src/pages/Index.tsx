@@ -20,12 +20,12 @@ interface CartItem extends Product {
 }
 
 const products: Product[] = [
-  { id: 1, name: 'Беговые кроссовки Pro', price: 5990, category: 'Обувь', image: '/placeholder.svg', discount: 20 },
-  { id: 2, name: 'Гимнастический коврик', price: 1990, category: 'Аксессуары', image: '/placeholder.svg' },
-  { id: 3, name: 'Спортивная бутылка 1L', price: 890, category: 'Аксессуары', image: '/placeholder.svg' },
-  { id: 4, name: 'Гантели 5кг (пара)', price: 2490, category: 'Инвентарь', image: '/placeholder.svg', discount: 15 },
-  { id: 5, name: 'Компрессионная футболка', price: 2790, category: 'Одежда', image: '/placeholder.svg' },
-  { id: 6, name: 'Фитнес-трекер Smart', price: 8990, category: 'Гаджеты', image: '/placeholder.svg', discount: 25 },
+  { id: 1, name: 'Беговые кроссовки Pro', price: 5990, category: 'Обувь', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop', discount: 20 },
+  { id: 2, name: 'Гимнастический коврик', price: 1990, category: 'Аксессуары', image: 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=300&fit=crop' },
+  { id: 3, name: 'Спортивная бутылка 1L', price: 890, category: 'Аксессуары', image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=300&fit=crop' },
+  { id: 4, name: 'Гантели 5кг (пара)', price: 2490, category: 'Инвентарь', image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&h=300&fit=crop', discount: 15 },
+  { id: 5, name: 'Компрессионная футболка', price: 2790, category: 'Одежда', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop' },
+  { id: 6, name: 'Фитнес-трекер Smart', price: 8990, category: 'Гаджеты', image: 'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=300&fit=crop', discount: 25 },
 ];
 
 const reviews = [
